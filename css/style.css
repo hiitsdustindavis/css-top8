@@ -46,8 +46,18 @@
   text-align: center;
   position: relative;
   float: left;
-  width: 25%
+  width: 25%;
 }
 .blue-border {
   border: blue solid 2px;
+}
+@media (max-width: 1080px){
+  .friend{
+    width: 50%
+  }
+}
+@media (max-width: 768px){
+  .friend{
+    width: 100%;
+  }
 }
